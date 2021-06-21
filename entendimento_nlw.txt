@@ -1,0 +1,36 @@
+Dicas - NLW
+
+-------------------- html
+
+--
+- sempre colocar label nos inputs mesmo que não for usar, pela acessibilidade (esconder no css);
+<label class="sr-only" for="room-id">Código da sala</label>
+<input type="number" id="room-id" placeholder="Código da sala">
+
+-------------------- css
+
+--- boas práticas para layouts (naturalmentes responsivos).
+--
+- macete para ajustar os tamanhos para rem.
+*{
+font-size: 62.5%; === 10%;
+}
+
+ex: h1 deveria ter 28px - com a pagina em 10%, eu preciso colocar somente 2.8rem
+h1{
+	font-size: 2.8rem; == 28px
+}
+h2{
+ font-size: 2.1rem; == 21px
+}
+
+--
+- quando a tela estiver no menor tamanho mantenha 14px o font-size, quando a tela estiver no maior tamanho mantenha 2vw de font-size.
+body, button, input, textarea{
+    /* intervalo de tamanho */
+    font-size: clamp(14px, 1.6rem, 2vw);
+	/*tbm é adicionado aqui a font-family*/
+	font-family: alguma font;
+}
+
+-------------------- js
