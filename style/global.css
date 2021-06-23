@@ -116,3 +116,19 @@ button.outlined,
 .content header img {
     width: 16.7rem;
 }
+
+/* --- HEADER --- */
+
+button.red,
+.button.red {
+    background: var(--red);
+    color: var(--white);
+}
+
+
+button.gray,
+.button.gray {
+    background: var(--gray-light);
+    color: (var(--gray-dark));
+}
+
