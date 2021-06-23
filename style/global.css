@@ -24,6 +24,7 @@ html {
     --hover-blue: #5699FF;
     --hover-red: #EA4B65;
     --hover-gray: #8794A7;
+    --gray-medium: #EAECF2;
 
 
     font-size: 62.5%;
@@ -115,6 +116,3 @@ button.outlined,
 .content header img {
     width: 16.7rem;
 }
-
-
-
