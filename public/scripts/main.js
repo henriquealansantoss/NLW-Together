@@ -35,7 +35,7 @@ function handleClick(event, check = true) {
     const questionId = event.target.dataset.id
 
     const form = document.querySelector('.modal form')
-    form.setAttribute("action", `/room/${roomId}/${questionId}/${slug}`)
+    form.setAttribute("action", `/question/${roomId}/${questionId}/${slug}`)
 
 
     modalTitle.innerHTML= check ? "Marcar como lida esta pergunta" : "Excluir esta Pergunta"
@@ -47,15 +47,3 @@ function handleClick(event, check = true) {
 }
 
 
-//         modalTitle.innerHTML = "Excluir Pergunta"
-//         modelDescription.innerHTML = "Tem certeza que você deseja excluir essa pergunta?"
-//         modalButton.style.backgroundColor = "var(--red)"
-//         modalButton.innerHTML = "Sim, excluir"
-//         modal.open()
-
-
-//         modalTitle.innerHTML = "Marcar como Lida"
-//         modelDescription.innerHTML = "Tem certeza que você deseja marcar como lida essa pergunta?"
-//         modalButton.style.backgroundColor = "var(--blue)"
-//         modalButton.innerHTML = "Sim, marcar como lido"
-//         modal.open()

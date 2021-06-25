@@ -17,6 +17,11 @@ server.use(express.static("public"))
 // caminho de onde eu estou 
 server.set('views', path.join(__dirname,'views'))
 
+//midware - quando esta passando dados para o controlle, recebendo dados na rota
+//é necessario configurar o midware - pois ele quem faz o intermédio de tudo que entra
+// no exemplo é enviado um formulario parar a rota
+// o midware está implicitamente entre a rota e o seu destino pra onde a rota irá mandar
+server.use(express.urlencoded({extended:true}))
 
 //informando que pode usar as rotas
 server.use(route)
