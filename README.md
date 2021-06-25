@@ -2,7 +2,8 @@
 Semana NLW/Together
 
 ## Projeto
-O Projeto tem como foco a criação de uma página de perguntas e respostas
+O Projeto tem como foco a criação de uma página de perguntas e respostas 
+Tecnologias usadas até o momento - HTML, CSS, Node.js
 
 ### Aula 01,02
 Nas primeiras foram voltadas para a criação do layout das paginas, onde aprendi muita coisa interessante como essas abaixo:
