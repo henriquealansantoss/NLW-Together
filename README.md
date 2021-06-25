@@ -7,6 +7,8 @@ O Projeto tem como foco a criação de uma página de perguntas e respostas
 ### Aula 01,02
 Nas primeiras foram voltadas para a criação do layout das paginas, onde aprendi muita coisa interessante como essas abaixo:
 
+(as informações abaixo funcionam como um lembrete para mim, talvez sómente eu mesmo entenda... kkk)
+
 *
 -------------------- HTML
 
