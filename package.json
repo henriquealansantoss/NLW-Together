@@ -1,0 +1,29 @@
+{
+  "name": "nlw_together",
+  "version": "1.0.0",
+  "description": "Semana NLW/Together - missão Discover - Projeto desenvolvido para gerenciar perguntas e anônimas de usuários direcionado ao dono da página.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquealansantoss/NLW-Together.git"
+  },
+  "keywords": [],
+  "author": "Henrique Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriquealansantoss/NLW-Together/issues"
+  },
+  "homepage": "https://github.com/henriquealansantoss/NLW-Together#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
+
+
