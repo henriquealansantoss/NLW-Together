@@ -18,7 +18,7 @@ ckeckButtons.forEach(button => {
 })
 
 // botão de excluir
-const deleteButton = document.querySelectorAll('.delete');
+const deleteButton = document.querySelectorAll('.actions a.delete');
 deleteButton.forEach(button => {
     button.addEventListener("click", (event) => handleClick(event, false))
 })
@@ -45,5 +45,4 @@ function handleClick(event, check = true) {
     check ? modalButton.classList.remove("red") : modalButton.classList.add("red")
     modal.open()
 }
-
 

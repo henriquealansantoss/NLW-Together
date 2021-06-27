@@ -28,3 +28,4 @@ server.use(route)
 
 //escolhendo uma porta 
 server.listen(3000,()=>console.log('teste'))
+

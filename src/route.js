@@ -11,12 +11,21 @@ route.get('/', (req , res) => res.render("index", {page:'enter-room'})) // {page
 foi alterado pois agr é o mesmo arquivo e só irá renderizar as partes*/
 route.get('/create-pass', (req , res) => res.render("index", {page:'create-pass'}))
 
-route.get('/room/:room', (req , res) => res.render("room")) //room.ejs = não precisa colocar o ejs na frente
 
+
+route.get('/room/:room', RoomController.open) //room.ejs = não precisa colocar o ejs na frente
+route.post('/create-room', RoomController.create)
+
+
+
+
+
+route.post('/question/create/:room', QuestionController.create)
 // os : informa que não sabemos o conteudo que será passado na váriavel
 //formato que o formulario de dentro da modal tem que passar informação
 route.post('/question/:room/:question/:action',QuestionController.index) 
-route.post('/create-room', RoomController.create)
 
 //exportando route
 module.exports = route
+
+
