@@ -1,3 +1,6 @@
+
+- Deixarei o README em ordem em breve -
+
 # NLW_Together
 Semana NLW/Together
 
